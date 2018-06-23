@@ -8,11 +8,13 @@ https://gitlab.com/jbwyatt4/portfolio
 
 ## ReactJS
 
-## Rails
+## Ruby / Rails
 
-## C/C++
+## C / C++
 
 ## API
+
+## Devops / Chef
 
 ## Game Development
 
