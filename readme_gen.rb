@@ -64,7 +64,7 @@ File.open(fname, 'w') { |file|
     file.write("## " + c[0])
     c[1].each do |cc|
       file.write("\n\n")
-      file.write(cc[1]["name"])
+      file.write("[" + cc[1]["name"] + "](" + cc[1]["gitlab"] + ")")
       file.write("\n\n")
       file.write(cc[1]["desc"])
     end
