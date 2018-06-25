@@ -54,7 +54,7 @@ File.open(fname, 'w') { |file|
   file.write("## Table of Contents")
   categories.each do |c|
     file.write("\n\n")
-    file.write("[" + c[0] + "](#" + c[0] + ")" )
+    file.write("[" + c[0] + "](https://gitlab.com/jbwyatt4/portfolio#" + c[0] + ")" )
   end
 
   # Write out the categories and each of the projects
