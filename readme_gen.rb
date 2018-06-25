@@ -51,11 +51,11 @@ File.open(fname, 'w') { |file|
   file.write("\n")
 
   # Table of Contents
-  #file.write("## Table of Contents")
-  #categories.each do |c|
-  #  file.write("\n\n")
-  #  file.write("[" + c[0] + "](#" + c[0] + ")" )
-  #end
+  file.write("## Table of Contents")
+  categories.each do |c|
+    file.write("\n\n")
+    file.write("[" + c[0] + "](#" + c[0] + ")" )
+  end
 
   # Write out the categories and each of the projects
   categories.each do |c|
