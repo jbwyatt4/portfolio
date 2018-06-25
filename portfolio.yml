@@ -1,0 +1,28 @@
+Projects:
+  hackernews_frontend:
+    name: "Hacker News React Frontend"
+    desc: "A simple ReactJS frontend for the Hacker News API based on the Road to Learn React."
+    gitlab: "https://gitlab.com/jbwyatt4/hackernews"
+    groups: ['ReactJS', 'API']
+  ideaboard_api:
+    name: 'IdeaBoard API'
+    desc: "An Idea board app written in ReactJS that uses the Rails API."
+    gitlab: "https://gitlab.com/jbwyatt4/ideaboard-api"
+    groups: ['ReactJS', "Ruby on Rails", 'API']
+  chef_dotfile_manager_tutorial:
+    name: "Chef Dotfile Manager Tutorial"
+    desc: "Tutorial code for how implemented a simple, yet comprehensive dotfile manager in Chef"
+    gitlab: "https://gitlab.com/jbwyatt4/chef_dotfile_manager_tutorial"
+    groups: ['DevOps / Chef']
+  aes128:
+    name: 'AES128 Encryption Project'
+    desc: "Fall 2012 CSE 178. Implemention of the 128bit subset of the AES Standard. Encryption only, very easy to understand and implemented in C."
+    gitlab: "https://gitlab.com/jbwyatt4/aes128"
+    groups: ['C/C++', 'Cryptography']
+  sdl_game_engine:
+    name: "SDL C Game Engine"
+    desc: "The final project by the Shreaders team at UC Merced's CSE 31 class. An early Final Fantasy style 2D RPG implemented with C and SDL."
+    gitlab: "https://gitlab.com/jbwyatt4/sdl_game_engine"
+    groups: ['C/C++', 'Game Development']
+IntroText: ""
+FooterText: ""
