@@ -19,6 +19,12 @@ portfolio['Projects'].each do |p|
   end
 end
 
+def get_url(obj)
+  return obj["url"] if not obj["url"].nil?
+  return obj["gitlab"] if not obj["gitlab"].nil?
+  return ""
+end
+
 #p categories.inspect
 
 #p categories.methods.sort
@@ -64,7 +70,7 @@ File.open(fname, 'w') { |file|
     file.write("## " + c[0])
     c[1].each do |cc|
       file.write("\n\n")
-      file.write("[" + cc[1]["name"] + "](" + cc[1]["gitlab"] + ")")
+      file.write("[" + cc[1]["name"] + "](" + get_url(cc[1]) + ")")
       file.write("\n\n")
       file.write(cc[1]["desc"])
     end
