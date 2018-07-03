@@ -1,0 +1,16 @@
+[submodule "ideaboard-api"]
+	path = ideaboard-api
+	url = git@gitlab.com:jbwyatt4/ideaboard-api.git
+	branch = master
+[submodule "api_todolist"]
+	path = api_todolist
+	url = git@gitlab.com:jbwyatt4/api_todolist.git
+	branch = master
+[submodule "hackernews"]
+	path = hackernews
+	url = git@gitlab.com:jbwyatt4/hackernews.git
+	branch = master
+[submodule "chef_dotfile_manager_tutorial"]
+	path = chef_dotfile_manager_tutorial
+	url = git@gitlab.com:jbwyatt4/chef_dotfile_manager_tutorial.git
+	branch = master
