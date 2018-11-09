@@ -70,7 +70,7 @@ File.open(fname, 'w') { |file|
   categories.each do |c|
     file.write("\n\n")
     #p c.inspect
-    file.write("## " + c[0].gsub(/[ ]/, '_'))
+    file.write("## " + c[0])
     c[1].each do |cc|
       file.write("\n\n")
       file.write("[" + cc[1]["name"] + "](" + get_url(cc[1]) + ")")

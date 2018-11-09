@@ -51,7 +51,7 @@ A simple ReactJS frontend for the Hacker News API based on the Road to Learn Rea
 
 An Idea board app written in ReactJS that uses the Rails API.
 
-## Ruby_on_Rails
+## Ruby on Rails
 
 [IdeaBoard API](https://gitlab.com/jbwyatt4/ideaboard-api)
 
@@ -67,7 +67,7 @@ A tech courses site I made to sell my video courses. Stack: Rails 4.2, Bootstrap
 
 A tech courses site I made to sell my video courses. Stack: Rails 4.2, Bootstrap 3, Nginx, Posgres, Ubuntu, and Amazon Web Services.
 
-## DevOps_/_Chef
+## DevOps / Chef
 
 [Chef Dotfile Manager Tutorial](https://gitlab.com/jbwyatt4/chef_dotfile_manager_tutorial)
 
@@ -89,7 +89,7 @@ The final project by the Shreaders team at UC Merced's CSE 31 class. An early Fi
 
 Fall 2012 CSE 178. Implemention of the 128bit subset of the AES Standard. Encryption only, very easy to understand and implemented in C.
 
-## Game_Development
+## Game Development
 
 [SDL C Game Engine](https://gitlab.com/jbwyatt4/sdl_game_engine)
 
