@@ -9,7 +9,7 @@ Projects:
     desc: "An Idea board app written in ReactJS that uses the Rails API."
     gitlab: "https://gitlab.com/jbwyatt4/ideaboard-api"
     groups: ['ReactJS', "Ruby on Rails", 'API']
-  wyatt-tech_courses:
+  wyatt_tech_courses:
     name: 'Wyatt Tech Courses'
     desc: "A tech courses site I made to sell my video courses. Stack: Rails 4.2, Bootstrap 3, Nginx, Posgres, Ubuntu, and Amazon Web Services."
     url: "https://wyatttechcourses.com"

@@ -10,7 +10,7 @@ require 'yaml'
 
 # Load the portfolio and generate/fill the categories
 portfolio = YAML.load_file('portfolio.yml')
-categories = {}#{'ReactJS':nil, 'Ruby on Rails':nil, 'C/C++':nil}
+categories = {} # Example: {'ReactJS':nil, 'Ruby on Rails':nil, 'C/C++':nil}
 portfolio['Projects'].each do |p|
   #puts p[1]["groups"].inspect
   p[1]['groups'].each do |g|
@@ -28,6 +28,8 @@ end
 #p categories.inspect
 
 #p categories.methods.sort
+
+# Header text for Readme.md
 
 intro_text = %{# John Wyatt's Portfolio
 
@@ -60,14 +62,14 @@ File.open(fname, 'w') { |file|
   file.write("## Table of Contents")
   categories.each do |c|
     file.write("\n\n")
-    file.write("[" + c[0] + "](https://gitlab.com/jbwyatt4/portfolio#" + c[0] + ")" )
+    file.write("[" + c[0] + "](https://gitlab.com/jbwyatt4/portfolio#" + c[0].gsub(/[ ]/, '_') + ")" )
   end
 
   # Write out the categories and each of the projects
   categories.each do |c|
     file.write("\n\n")
     #p c.inspect
-    file.write("## " + c[0])
+    file.write("## " + c[0].gsub(/[ ]/, '_'))
     c[1].each do |cc|
       file.write("\n\n")
       file.write("[" + cc[1]["name"] + "](" + get_url(cc[1]) + ")")
