@@ -4,6 +4,11 @@ Projects:
     desc: "A simple ReactJS frontend for the Hacker News API based on the Road to Learn React."
     gitlab: "https://gitlab.com/jbwyatt4/hackernews"
     groups: ['ReactJS', 'API']
+  api_rspec_example:
+    name: "API RSpec Example"
+    desc: "A simple RSpec with both JSON API and HTML spec and feature tests."
+    gitlab: "https://gitlab.com/jbwyatt4/api_rspec_example"
+    groups: ['API', 'Ruby on Rails', 'RSpec', 'TDD']
   ideaboard_api:
     name: 'IdeaBoard API'
     desc: "An Idea board app written in ReactJS that uses the Rails API."

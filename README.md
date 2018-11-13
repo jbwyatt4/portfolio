@@ -21,6 +21,10 @@ API
 
 Ruby on Rails
 
+RSpec
+
+TDD
+
 Bootstrap
 
 DevOps / Chef
@@ -47,11 +51,19 @@ An Idea board app written in ReactJS that uses the Rails API.
 
 A simple ReactJS frontend for the Hacker News API based on the Road to Learn React.
 
+[API RSpec Example](https://gitlab.com/jbwyatt4/api_rspec_example)
+
+A simple RSpec with both JSON API and HTML spec and feature tests.
+
 [IdeaBoard API](https://gitlab.com/jbwyatt4/ideaboard-api)
 
 An Idea board app written in ReactJS that uses the Rails API.
 
 ## Ruby on Rails
+
+[API RSpec Example](https://gitlab.com/jbwyatt4/api_rspec_example)
+
+A simple RSpec with both JSON API and HTML spec and feature tests.
 
 [IdeaBoard API](https://gitlab.com/jbwyatt4/ideaboard-api)
 
@@ -60,6 +72,18 @@ An Idea board app written in ReactJS that uses the Rails API.
 [Wyatt Tech Courses](https://wyatttechcourses.com)
 
 A tech courses site I made to sell my video courses. Stack: Rails 4.2, Bootstrap 3, Nginx, Posgres, Ubuntu, and Amazon Web Services.
+
+## RSpec
+
+[API RSpec Example](https://gitlab.com/jbwyatt4/api_rspec_example)
+
+A simple RSpec with both JSON API and HTML spec and feature tests.
+
+## TDD
+
+[API RSpec Example](https://gitlab.com/jbwyatt4/api_rspec_example)
+
+A simple RSpec with both JSON API and HTML spec and feature tests.
 
 ## Bootstrap
 
